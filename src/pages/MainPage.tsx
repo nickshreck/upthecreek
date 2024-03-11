@@ -35,6 +35,9 @@ const MainTextContainer = styled.div`
     text-align: left;
     padding: 1rem;
     box-sizing: border-box;
+    @media (max-width: 768px) {
+        bottom: 20vh;
+    }
 `;
 
 const MainText = styled.div`
